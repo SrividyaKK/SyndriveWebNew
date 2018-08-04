@@ -1,0 +1,9 @@
+/*h1 {
+	text-shadow: 1px 1px 1px green;
+}*/
+
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
