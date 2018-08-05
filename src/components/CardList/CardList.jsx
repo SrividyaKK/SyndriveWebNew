@@ -25,7 +25,12 @@ class CardList extends React.Component {
     deleteCard(i) {
         console.log("run    ");
         const { users } = this.state;
-        this.setState({users: users.filter((user, index) => index!=i)});
+        this.setState({
+        	users: users.map((user, index) => {
+        				if(index==i) {user.addressed=true}
+        				return user;
+        			})
+        			.filter((user, index) => index!=i)});
         // this.setState({ hidden: !this.state.hidden });
     }
 
