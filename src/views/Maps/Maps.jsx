@@ -14,7 +14,7 @@ if (navigator.geolocation) {
         lng = position.coords.longitude;
     });
 }
-if(lat==undefined || lng==undefined) 
+if(lat===undefined || lng===undefined) 
 {
     lat = 9.978221;
     lng = 76.2795793

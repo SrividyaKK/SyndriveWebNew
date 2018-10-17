@@ -4,7 +4,7 @@ import CardContents from '../Card/CardContents';
 import Card from "components/Card/Card.jsx";
 // import CardIcon from "components/Card/CardIcon.jsx";
 import CardAvatar from "components/Card/CardAvatar.jsx";
-import CardFooter from 'components/Card/CardFooter.jsx';
+// import CardFooter from 'components/Card/CardFooter.jsx';
 import Checkbox from '@material-ui/core/Checkbox'
 import './CardList.css';
 
@@ -27,10 +27,10 @@ class CardList extends React.Component {
         const { users } = this.state;
         this.setState({
         	users: users.map((user, index) => {
-        				if(index==i) {user.addressed=true}
+        				if(index===i) {user.addressed=true}
         				return user;
         			})
-        			.filter((user, index) => index!=i)});
+        			.filter((user, index) => index!==i)});
         // this.setState({ hidden: !this.state.hidden });
     }
 

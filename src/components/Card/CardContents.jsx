@@ -2,7 +2,7 @@ import React from 'react';
 import Contacts from '../Contacts';
 import './Card.css'
 import MapWithAMarker from '../Map/Map';
-import Checkbox from '@material-ui/core/Checkbox';
+// import Checkbox from '@material-ui/core/Checkbox';
 
 class CardContents extends React.Component {
     render() {
