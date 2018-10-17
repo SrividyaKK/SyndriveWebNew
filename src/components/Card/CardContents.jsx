@@ -5,6 +5,12 @@ import MapWithAMarker from '../Map/Map';
 // import Checkbox from '@material-ui/core/Checkbox';
 
 class CardContents extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        }
+    }
     render() {
         const { name, dob, bloodGroup, id, contacts, lat, lng, isChecked } = this.props;
         const year = Number(dob.substr(6, 4));

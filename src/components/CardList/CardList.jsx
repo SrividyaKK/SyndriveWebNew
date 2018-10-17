@@ -27,7 +27,7 @@ class CardList extends React.Component {
         const { users } = this.state;
         this.setState({
         	users: users.map((user, index) => {
-        				if(index===i) {user.addressed=true}
+        				if (index===i) {user.addressed=true}
         				return user;
         			})
         			.filter((user, index) => index!==i)});
