@@ -24,9 +24,10 @@ const users = [
     },
     {
         id: 2,
-        name: 'Ervin Howell',
+        name: 'Megha K C',
         dob: '09/05/1995',
         bloodGroup: 'O+', 
+        imgUrl: 'https://media.licdn.com/dms/image/C5103AQGLd0d3QaKj6g/profile-displayphoto-shrink_200_200/0?e=1543449600&v=beta&t=hMRbZY0e-h0tfWFtV7ZYzVE2OUz99OgaA9gqon0K25s',
         contacts: [
             {
                 name: 'Mom', 
@@ -47,9 +48,10 @@ const users = [
     },
     {
         id: 3,
-        name: 'Clementine Bauch',
+        name: 'Ashmi Fathima',
         dob: '13/10/1985',
         bloodGroup: 'B-', 
+        imgUrl: '',
         contacts: [
             {
                 name: 'Mom', 

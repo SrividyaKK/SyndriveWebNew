@@ -44,7 +44,8 @@ class CardList extends React.Component {
 						return (
 							<Card profile className='ma2 pa4' style={{width: 'auto'}}>
 				                <CardAvatar profile>
-				                    <img src={`http://robohash.org/${i}`} alt="..." />
+				                    {/* <img src={`http://robohash.org/${i}`} alt="..." /> */}
+									<img src={users[i].imgUrl} alt='profile-photo' />
 				                </CardAvatar>
 				                { /* <CardBody profile> */}
 			                	<CardContents key={i} 
